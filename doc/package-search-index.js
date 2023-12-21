@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"ulb.infof307.g02","l":"ulb.infof307.g02"},{"m":"ulb.infof307.g02","l":"ulb.infof307.g02.controllers"},{"m":"ulb.infof307.g02","l":"ulb.infof307.g02.models"},{"m":"ulb.infof307.g02","l":"ulb.infof307.g02.views"}];updateSearchResults();

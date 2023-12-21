@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="2023-groupe-2.jar" type="JarApplication">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/dist/2023-groupe-2.jar" />
+    <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <module name="Projetinfoh307" />
+    <method v="2" />
+  </configuration>
+</component>

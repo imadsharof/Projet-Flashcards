@@ -1,0 +1,4 @@
+Nom : Analyse
+Catégorie : BA2
+Cartes : 
+{C'est quoi le Jacobien|C'est bien[1.0}

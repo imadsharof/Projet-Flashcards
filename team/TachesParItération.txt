@@ -1,0 +1,32 @@
+1er Itération :
+-Histoire 2 : (durée estimée : 10 heures)
+Ajouter la fonctionnalité permettant à l'utilisateur de créer un jeu de cartes, en lui donnant un nom et une ou plusieurs catégories.
+Enregistrer le paquet de cartes créé dans un menu pour qu'il soit accessible.
+
+-Histoire 3 : (durée estimée : 10 heures)
+Ajouter la possibilité pour l'utilisateur d'ajouter, de supprimer ou de modifier des cartes dans un paquet existant.
+
+-Histoire 4 :(durée estimée : 8 heures)
+Implémenter la fonctionnalité permettant à l'utilisateur d'étudier un paquet de cartes en le sélectionnant dans le menu.
+Présenter chaque carte du paquet de manière aléatoire, en affichant uniquement la question.
+Ajouter la possibilité pour l'utilisateur de demander la réponse à une question donnée.
+Proposer plusieurs boutons permettant à l'utilisateur d'indiquer son niveau de connaissance de la réponse à chaque question.
+
+2eme Iteration :
+
+-Finir la première itération (durée estimée : 10 heures)
+
+-Histoire 9 :
+Ajouter la fonctionnalité de statistiques globales, permettant à l'utilisateur de consulter le nombre de jeux de cartes utilisés, le nombre totale de cartes jouées et le score moyen global.(durée estimée : 6 heures)
+Ajouter la fonctionnalité de statistiques par paquet de cartes, permettant à l'utilisateur de consulter le nombre de cartes (durée estimée : 1 heure)
+
+-Histoire 5 :
+Ajouter la possibilité de voir les cartes triées en fonction de leur niveau de connaissance par l'utilisateur pour chaque paquet de cartes.
+
+3eme itération :
+Priorité 1 :
+Sauvegarder les scores et les probabilités (durée estimée : 6 heures)
+Priorité 2 :
+Implémenter les formules de base LaTeX (par exemple, les formules mathématiques avec $$, \frac, affichage matrices, etc.) pour l'Histoire 17 (durée estimée : 19 heures)
+Priorité 3 :
+Créer des textes à trous et des choix multiples pour l'Histoire 8 (durée estimée : non spécifiée)

@@ -1,0 +1,5 @@
+Score : 3.0
+AnswerLevel : 12.0
+NumberOfCardsPlayed :4
+NumberOfRevision :3
+StudyingTime :25638

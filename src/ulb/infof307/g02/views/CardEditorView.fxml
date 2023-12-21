@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.infof307.g02.views.CardEditorViewController">
+    <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+          prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+        <Label layoutX="35.0" layoutY="30.0" prefHeight="30.0" prefWidth="240.0" text="Question : ">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="325.0" layoutY="30.0" prefHeight="30.0" prefWidth="240.0" text="Réponse : ">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Button fx:id="save" layoutX="225.0" layoutY="320.0" mnemonicParsing="false" onAction="#onSaveButtonClick"
+                prefHeight="25.0" prefWidth="150.0" text="Enregistrer la carte"/>
+        <Button layoutX="225.0" layoutY="355.0" mnemonicParsing="false" onAction="#onCancelButtonClick"
+                prefHeight="25.0" prefWidth="150.0" text="Annuler"/>
+        <Button fx:id="latexView" layoutX="225.0" layoutY="285.0" mnemonicParsing="false"
+                onAction="#onLatexViewButtonClick" prefHeight="25.0" prefWidth="150.0" text="Vue Latex"/>
+        <TextArea fx:id="textAreaQuestion" layoutX="35.0" layoutY="65.0" prefHeight="112.0" prefWidth="240.0"
+                  promptText="Entrez votre question">
+            <font>
+                <Font size="13.0"/>
+            </font>
+        </TextArea>
+        <TextArea fx:id="textAreaAnswer" layoutX="325.0" layoutY="65.0" prefHeight="112.0" prefWidth="240.0"
+                  promptText="Entrez votre réponse">
+            <font>
+                <Font size="13.0"/>
+            </font>
+        </TextArea>
+        <AnchorPane layoutX="325.0" layoutY="180.0" prefHeight="100.0" prefWidth="240.0">
+            <ImageView fx:id="aLatex" fitHeight="100.0" fitWidth="240.0" layoutX="325.0" layoutY="180.0"
+                       preserveRatio="true" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0"
+                       AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0"/>
+        </AnchorPane>
+        <AnchorPane layoutX="35.0" layoutY="180.0" prefHeight="100.0" prefWidth="240.0">
+            <HBox alignment="CENTER">
+                <ImageView fx:id="qLatex" fitHeight="100.0" fitWidth="240.0" preserveRatio="true"/>
+            </HBox>
+        </AnchorPane>
+        <Label layoutX="22.0" layoutY="283.0" prefHeight="25.0" prefWidth="112.0" text="Type de question:"/>
+        <Button fx:id="txt" layoutX="22.0" layoutY="320.0" mnemonicParsing="false" onAction="#onTxtButtonClick"
+                prefHeight="25.0" prefWidth="106.0" text="Texte"/>
+        <Button fx:id="txtTrous" layoutX="20.0" layoutY="355.0" mnemonicParsing="false"
+                onAction="#onTxtTrousButtonClick" prefHeight="25.0" prefWidth="106.0" text="Texte à trous"/>
+
+    </Pane>
+</AnchorPane>

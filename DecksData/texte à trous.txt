@@ -1,0 +1,4 @@
+Nom : texte à trous
+Catégorie : exemples
+Cartes : 
+{Pour remplir __ texte à __, il faut trouver le __ rentrant dans chaque__. Pour ce faire, il faut s'aider du __ de la phrase.|Pour remplir le texte à trous, il faut trouver le mot rentrant dans chaquetrou. Pour ce faire, il faut s'aider du sens de la phrase.[1.0}

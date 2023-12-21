@@ -1,0 +1,7 @@
+Nom : Calcul Rapide
+Catégorie : Mathématiques
+Cartes : 
+{Calculez 8 + 7 |15[0.25}
+{Calculez 12 - 5 |7[0.25}
+{Calculez 3 x 6 |18[0.25}
+{Calclulez : \\359 + 141|500[0.25}

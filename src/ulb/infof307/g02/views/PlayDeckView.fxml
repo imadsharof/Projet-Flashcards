@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="381.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.infof307.g02.views.PlayDeckViewController">
+    <ButtonBar layoutX="41.0" layoutY="321.0" prefHeight="40.0" prefWidth="518.0">
+        <buttons>
+            <Button fx:id="buttonTB" mnemonicParsing="false" onAction="#onTbButtonClick" text="Très bonne"/>
+            <Button fx:id="buttonB" layoutX="135.0" layoutY="18.0" mnemonicParsing="false" onAction="#onBButtonClick"
+                    text="Bonne"/>
+            <Button fx:id="buttonMo" layoutX="135.0" layoutY="18.0" mnemonicParsing="false" onAction="#onMoButtonClick"
+                    text="Moyenne"/>
+            <Button fx:id="buttonM" layoutX="200.0" layoutY="18.0" mnemonicParsing="false" onAction="#onMButtonClick"
+                    text="Mauvaise"/>
+            <Button fx:id="buttonTM" layoutX="285.0" layoutY="18.0" mnemonicParsing="false" onAction="#onTmButtonClick"
+                    text="Très mauvaise"/>
+        </buttons>
+    </ButtonBar>
+    <Button fx:id="buttonSwitch" layoutX="232.0" layoutY="280.0" mnemonicParsing="false" onAction="#onSwitchButtonClick"
+            prefHeight="31.0" prefWidth="137.0" text="Commencer">
+        <font>
+            <Font size="15.0"/>
+        </font>
+    </Button>
+    <StackPane layoutX="-1.0" layoutY="10.0" prefHeight="262.0" prefWidth="600.0">
+        <Rectangle fx:id="card" arcHeight="5.0" arcWidth="5.0" fill="#edeee5" height="262.0" stroke="BLACK"
+                   strokeType="INSIDE" width="600.0"/>
+        <ImageView fx:id="QAText" fitHeight="70.0" fitWidth="300.0" preserveRatio="true"/>
+    </StackPane>
+    <Label fx:id="labelQorA" layoutX="14.0" layoutY="22.0" prefHeight="40.0" prefWidth="287.0"
+           text="Appuyer sur Commencer:">
+        <font>
+            <Font size="14.0"/>
+        </font>
+    </Label>
+    <Label fx:id="nomCat" layoutX="408.0" layoutY="14.0" prefHeight="49.0" prefWidth="137.0"/>
+    <Button layoutX="489.0" layoutY="280.0" mnemonicParsing="false" onAction="#onQuitButtonClick" prefHeight="31.0"
+            prefWidth="70.0" text="Quitter"/>
+</AnchorPane>

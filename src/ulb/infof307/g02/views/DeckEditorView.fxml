@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.infof307.g02.views.DeckEditorViewController">
+    <TableView fx:id="deckEditorView" layoutX="49.0" layoutY="59.0" prefHeight="200.0" prefWidth="503.0">
+        <columns>
+            <TableColumn fx:id="questionColumnTableView" prefWidth="255.6666717529297" text="Question(s)" />
+            <TableColumn fx:id="answerColumnTableView" prefWidth="245.99998982747394" text="Réponse(s)" />
+        </columns>
+    </TableView>
+   <Button fx:id="addCard" layoutX="49.0" layoutY="279.0" mnemonicParsing="false" onAction="#onAddButtonClick" prefHeight="26.0" prefWidth="125.0" text="Ajouter une carte" />
+   <Button fx:id="selectCard" layoutX="237.0" layoutY="279.0" mnemonicParsing="false" onAction="#onSelectButtonClick" prefHeight="26.0" prefWidth="126.0" text="Modifier la carte" />
+   <Button fx:id="deleteCard" layoutX="425.0" layoutY="279.0" mnemonicParsing="false" onAction="#OnDeleteButtonClick" prefHeight="26.0" prefWidth="126.0" text="Supprimer la carte" />
+   <Button fx:id="Return" layoutX="49.0" layoutY="343.0" mnemonicParsing="false" onAction="#OnReturnButtonClick" prefHeight="26.0" prefWidth="126.0" text="Retour Menu" />
+    <Label fx:id="nbCards" layoutX="425.0" layoutY="338.0" prefHeight="37.0" prefWidth="143.0" text="Nombre de cartes: " textAlignment="CENTER">
+      <font>
+         <Font size="13.0" />
+      </font></Label>
+   <Label fx:id="nomJeu" contentDisplay="CENTER" layoutX="156.0" layoutY="15.0" prefHeight="37.0" prefWidth="290.0" textAlignment="CENTER" AnchorPane.leftAnchor="156.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="15.0">
+      <font>
+         <Font size="18.0" />
+      </font></Label>
+   <Label fx:id="category" contentDisplay="RIGHT" layoutX="442.0" layoutY="20.0" prefHeight="26.0" prefWidth="137.0" textAlignment="RIGHT">
+      <font>
+         <Font size="13.0" />
+      </font>
+   </Label>
+
+
+</AnchorPane>

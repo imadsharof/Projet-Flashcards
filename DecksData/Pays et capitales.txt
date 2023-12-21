@@ -1,0 +1,49 @@
+Nom : Pays et capitales
+Catégorie : Géographie
+Cartes : 
+{Quelle est la capitale de la Belgique ?|Bruxelles[0.021739130434782608}
+{Quelle est la capitale de la France ?|Paris[0.021739130434782608}
+{Quelle est la capitale de l'Allemagne ?|Berlin[0.021739130434782608}
+{Quelle est la capitale du Royaume-Uni ?|Londres[0.021739130434782608}
+{Quelle est la capitale de l'Espagne ?|Madrid[0.021739130434782608}
+{Quelle est la capitale de l'Italie ?|Rome[0.021739130434782608}
+{Quelle est la capitale du Portugal ?|Lisbonne[0.021739130434782608}
+{Quelle est la capitale de la Suisse ?|Berne[0.021739130434782608}
+{Quelle est la capitale de la Russie ?|Moscou[0.021739130434782608}
+{Quelle est la capitale de la Turquie ?|Ankara[0.021739130434782608}
+{Quelle est la capitale de l'Égypte ?|Le Caire[0.021739130434782608}
+{Quelle est la capitale du Canada ?|Ottawa[0.021739130434782608}
+{Quelle est la capitale de l'Australie ?|Canberra[0.021739130434782608}
+{Quelle est la capitale du Brésil ?|Brasilia[0.021739130434782608}
+{Quelle est la capitale du Japon ?|Tokyo[0.021739130434782608}
+{Quelle est la capitale de l'Argentine ?|Buenos Aires[0.021739130434782608}
+{Quelle est la capitale du Mexique ?|Mexico[0.021739130434782608}
+{Quelle est la capitale de l'Inde ?|New Delhi[0.021739130434782608}
+{Quelle est la capitale de la Chine ?|Pékin[0.021739130434782608}
+{Quelle est la capitale de la Corée du Sud ?|Séoul[0.021739130434782608}
+{Quelle est la capitale de la Thaïlande ?|Bangkok[0.021739130434782608}
+{Quelle est la capitale de l'Indonésie ?|Jakarta[0.021739130434782608}
+{Quelle est la capitale de la Nouvelle-Zélande ?|Wellington[0.021739130434782608}
+{Quelle est la capitale de l'Afrique du Sud ?|Pretoria (administrative)[0.021739130434782608}
+{Quelle est la capitale de la Suède ?|Stockholm[0.021739130434782608}
+{Quelle est la capitale de la Norvège ?|Oslo[0.021739130434782608}
+{Quelle est la capitale du Danemark ?|Copenhague[0.021739130434782608}
+{Quelle est la capitale des Pays-Bas ?|Amsterdam[0.021739130434782608}
+{Quelle est la capitale de la Grèce ?|Athènes[0.021739130434782608}
+{Quelle est la capitale de l'Autriche ?|Vienne[0.021739130434782608}
+{Quelle est la capitale de la Hongrie ?|Budapest[0.021739130434782608}
+{Quelle est la capitale de la République tchèque ?|Prague[0.021739130434782608}
+{Quelle est la capitale de la Pologne ?|Varsovie[0.021739130434782608}
+{Quelle est la capitale de la Slovaquie ?|Bratislava[0.021739130434782608}
+{Quelle est la capitale de la Slovénie ?|Ljubljana[0.021739130434782608}
+{Quelle est la capitale de la Croatie ?|Zagreb[0.021739130434782608}
+{Quelle est la capitale de la Roumanie ?|Bucarest[0.021739130434782608}
+{Quelle est la capitale de la Bulgarie ?|Sofia[0.021739130434782608}
+{Quelle est la capitale de l'Ukraine ?|Kiev[0.021739130434782608}
+{Quelle est la capitale de la Finlande ?|Helsinki[0.021739130434782608}
+{Quelle est la capitale de la Lettonie ?|Riga[0.021739130434782608}
+{Quelle est la capitale de la Lituanie ?|Vilnius[0.021739130434782608}
+{Quelle est la capitale de l'Estonie ?|Tallinn[0.021739130434782608}
+{Quelle est la capitale de la Biélorussie ?|Minsk[0.021739130434782608}
+{Quelle est la capitale de la Moldavie ?|Chisinau[0.021739130434782608}
+{Quelle est la capitale des Emirats?|Abu Dhabi[0.021739130434782608}

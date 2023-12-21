@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.infof307.g02.views.StatisticsViewController">
+   <Label fx:id="labelScore" layoutX="200.0" layoutY="70.0" prefHeight="50.0" prefWidth="350.0" text="LabelScore"
+          textAlignment="CENTER">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <!--<ImageView id="boxImage" fitWidth="100" fitHeight="100"></ImageView>-->
+   <Label fx:id="labelNbRev" layoutX="200.0" layoutY="120.0" prefHeight="50.0" prefWidth="300.0" text="LabelNbRev"
+          textAlignment="CENTER">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Label fx:id="labelNbCardsPlayed" layoutX="200.0" layoutY="175.0" prefHeight="50.0" prefWidth="300.0"
+          text="LabelNbCardsPlayed">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+   <Button fx:id="resetState" layoutX="214.0" layoutY="305.0" mnemonicParsing="false"
+           onAction="#onResetStatsButtonClick" text="Rénitialiser les statistiques"/>
+   <Button fx:id="retour" layoutX="26.0" layoutY="33.0" mnemonicParsing="false" onAction="#onReturnClickButton"
+           prefHeight="25.0" prefWidth="119.0" text="Retour Menu"/>
+   <Label fx:id="labelStudyingTime" layoutX="200.0" layoutY="225.0" prefHeight="50.0" prefWidth="300.0"
+          text="LabelStudyingTime">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </Label>
+
+</AnchorPane>
